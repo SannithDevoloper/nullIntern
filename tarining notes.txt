@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+<head>
+<title>
+<body>
+<h1>
+<p>
+<pre>
+<a>
+<img>
+<br/>
+<hr>
+<footer>
+<aside>
+<section>
+<article>
+<nav>
+<ul>
+<ol>
+<li>
+///////////////////////////////////////////////
+
+
+CSS
+ 
+inline
+<style>
+style sheet
+
+margin
+padding
+border
+backgound-color
+color
+border-radius
+font-size
+font-family
+text-decoration
+height
+width
+float
+display : inline/block/flex
+flex-direction: row/column
+justify-content: center/space-between/space-arround
+align-items: center
+flex-wrap: wrap
+list-style: none
+text-align:center
+nth-child(1)
+hover
+active
+ position: static/relative/absolute/fixed/sticky
+backgound-img:url("")
+background-size:cover
+background-repeat:no-repeat
+background-position
+transform
+transition
+animation
+
+///////////////////////////////////////////////
+Java Script
+
+var
+let
+const
+
+innerHTML    =>
+
+    <h1 id=demo></h1>
+   const demo=document.getElementById("demo")
+   demo.innerHTML ="Hi Sannith"
+
+document.write()
+window.alert()
+console.log()
+
+Data Types=>
+  number
+  string
+  Arrays
+ Objects
+
+let num=10;
+typeof(num) ==> number
+let str=num.toString()
+typeof(str) ==> string
+
+num.toExponential() ===> 1e+1
+num.toExponential(2) ===>100e+1
+
+let num=10.23456
+num.toFixed(2)   ===>10.23
+num.toPrecision(2) ==>10
+num.toPrecision(5) ==>10.234
+
+
+let num=10.23456
+let str=num.toString()
+console.log(typeof(str))
+console.log(typeof(Number(str)))
+
+typeof(parseInt("456789"))==>  number
+
+
+typeof(parseFloat("456.789"))==>  number
+
+
+let str="sannith"
+typeof(str)===> string
+
+let str='sannith'
+typeof(str)===> string
+
+let str='sannith's web page'
+its is not a string
+
+let str='sannith\'s web page'
+console.log(str)===>sannith's web page
+
+let str='sannith\'s web \\page'
+console.log(str)===>sannith's web \ page
+
+let str='sannith\'s web\tnew \\page'
+console.log(str)===>sannith's web new \ page
+
+\t ==> tab
+\v==> vertical tab
+\n==> new line
+\b==> back space
+
+const name="sannith reddy"
+name.slice(0,5)==> sanni
+name.substring(7)==> reddy
+name.substring(7,3)==> re
+name.replace("sannith","santhu")==> santhu reddy
+name.indexOf("r")==>7
+name.indexOf("r")==>7
+
+let name="manoj kumar"
+name.indexOf("a",6)==>9
+name.lastIndexOf("a",6)==>1
+name.startsWith ("m")==>true
+name.startsWith ("k")==>false
+name.startsWith ("k",6)==>true
+name.endsWith ("r")==>true
+name.length==>11
+
+Arrays
+
+const cars=["volvo","tesla","tata"]
+cars.toString()==> volvo,telsa,tata
+cars.join(" ")===>volvo telsa tata
+cars.push("Benz")===>volvo,telsa,tata,Benz
+cars.pop()=====>volvo,telsa,tata(remoes last value)
+cars.shift()=====>tesla,tata(removes 1st value)
+cars.unshift("Benz")===> Benz,tesla,tata(add value to 1st)
+cars.length()==>3
+indexing
+splice
+concat()
+sort()
+reverse()
+
+
+Object
+
+const person={
+                      fname:"sannith",lname="reddy",age:24,contact:8790487464
+                        }
+
+
+Operators
+
+Arithmetic Operators   ===> +,-,*,**,/,%,++,--
+Comparision Operators===>==,===,!=,!==,<,>,>=,<=
+
+Conditional Statememts
+
+if - else if - else
+switch
+
+Loops
+
+for
+
+for(stmt1;stmr2;stmt3){
+//code block to be executed
+}
+
+for(key in object){
+//code block to be executed
+}
+
+for(var of iterable){
+//code block to be executed
+}
+
+Whileloop
+
+while(condition){
+//code block to be executed
+}
+
+ex:
+ while(i<10){
+text +="the num is"+i;
+i++;
+}
+
+
+ForEach	
+
+DOM
+
+Document object model 
+with the   html dom,js can acces and change all the elements of html documents
+
+DOM finding html elements by
+
+ document.getElementById(id)
+ document.getElementByTagName(tagname)
+document.getElementByClassName(classname)
+
+DOM  changing html elements by
+
+element.innerHTML= new  html content
+element.attribute= new value
+element.style.property= new style
+element.setAttribute(attribute,value)
+
+DOM adding and deletimg elements
+
+document.createElement(element)     ==> create an html  element
+document.removeChild(element)       ==>remoe an html element
+document.appendChild(element)      ==>add an html element
+document.replaceChild(new,old)     ===>replace an html element
+document.write(text)                          ==>write into html output stream
+
+Events
+
+onchange
+onclick
+onmouseover
+onmouseout
+onkeydown    ==> user pushes the keyboard key
+onload          ===> browser has finished loading the page
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+React js
+
+jsx
+components
+props
+destructure
+
+react hooks
+
+useState
+useEffect
+useRef
+usecontext
+useReducer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
